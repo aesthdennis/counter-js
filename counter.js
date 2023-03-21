@@ -30,7 +30,7 @@ var count = parseInt(localStorage.getItem('count')) || 0;
 // Updates the count display with the current count
 countEl.textContent = count;
 
-// Updates the count in local storage whenever it changes, whoever's developed the local storage; I hope they have bad dreams !11!!!1!
+// Updates the count in local storage whenever it changes.
 function updateCount(value) {
   count += value;
   localStorage.setItem('count', count.toString());
