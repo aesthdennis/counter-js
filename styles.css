@@ -1,0 +1,72 @@
+:root {
+    /* Colors */
+
+    --transition-speed: 600ms;
+  }
+
+* {
+    
+    font-family: Garamond;
+    margin: 0;
+    padding: 0;
+    scrollbar-width: auto;
+    scrollbar-color: var(blue) var(white);
+  }
+
+
+body {
+    background: linear-gradient(to right, rgb(179, 179, 179), rgb(110, 110, 110));
+    font-family: "Lora", "Cinzel", serif;
+    font-weight: 400;
+    color: var(--text-primary);
+    font-size: 14px;
+    line-height: 1.5;
+  }
+
+h1, p {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-top: 30vh;
+}
+
+h1 {
+    font-size: 50px;
+    display: center;
+}
+
+p {
+    font-size: 45px;
+    margin-top: 3vh;
+    display: center;
+}
+
+
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40vh;
+  }
+  
+  .container button {
+    min-height: 12vh;
+    padding: 20px;
+    margin: 8px;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 4vh;
+    border: 3px solid rgb(37, 31, 36);
+    outline: none;
+    background-color: rgb(212, 212, 212);
+  }
+  
+  
+button:active {
+    transform: scale(1.2);
+    transition: transform 0.2s ease;
+  }
+  
+
